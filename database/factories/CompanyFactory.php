@@ -18,7 +18,7 @@ class CompanyFactory extends Factory
     {
         return [
             'name' => fake()->company(),
-            'logo' => fake()->imageUrl(),
+            'logo' => 'https://picsum.photos/id/' . rand(1, 50) . '/640/480.jpg',
         ];
     }
 }
